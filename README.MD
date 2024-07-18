@@ -1,23 +1,34 @@
-# ☁ `Digitalocean-bot`
+# 🌊Digital Ocean Manage Account with TelegramBot🤖 
 
-![](.README.MD_images/1be8fb97.png)
 
-### 🚚 telegram bot Digital Ocean
+## 📌 Fungsi
+1. Mengelola Digital Ocean Akun, Periksa saldo akun, Uji akun dalam batch
+2. Membuat dan mengelola mesin virtual
 
-### 🔖 Fungsi Utama
 
-+ Mengelola Digital Ocean Akun, Periksa saldo akun, Uji akun dalam batch
-+ Membuat dan mengelola mesin virtual
-
-### 🪂 lingkungan
-
+## 🚀 Usage
+Run the script with the following command:
+```bash
+git clone https://github.com/wahyuda110/dotele-bot
 ```
-python3.8
+```bash
+pip3 install -r requirements.txt
+```
+```bash
+python3 main.py
 ```
 
-### 😻 Penggunaan
 
-1. `git clone` Project ke Lokal,`pip3.8 install -r requirements.txt` Ketergantungan instalasi
-2. ada [@botfather](https://t.me/botfather) Membangun yang baru `bot`, Tuliskanuliskan `token`
-3. edit `config.json`, Isi konfigurasi yang relevan
-4. `python3.8 main.py` berlari `bot`
+ ## 📄 Note
+   Setting config in `config.json`
+   ```bash
+    {
+  "BOT": {
+    "NAME": "Nama Toki",
+    "TOKEN": "TOKENBOT",
+    "ADMINS": [IDTELE
+    ]
+  }
+}
+   ```
+
